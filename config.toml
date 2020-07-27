@@ -1,0 +1,19 @@
+# Page settings
+
+baseURL = "ksoda.github.io"
+languageCode = "en"
+title = ""
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-127857678-1"
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+    [params.profile]
+        enable = true
+        name = "Ken Sonoda"
+        tagline = "Software Developer"
+        avatar = "avatar.png"
+
