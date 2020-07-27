@@ -17,3 +17,165 @@ googleAnalytics = "UA-127857678-1"
         tagline = "Software Developer"
         avatar = "avatar.png"
 
+    [params.contact]
+        enable = false
+        location = "Tokyo"
+
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "ken.soda0@example.test"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "ksoda.github.io"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Web API/Node.js/React"
+        [[params.skills.list.items]]
+        details = "Ruby/Rubocop"
+        [[params.skills.list.items]]
+        details = "TypeScript/ESLint/Flow"
+        [[params.skills.list.items]]
+        details = "PostgreSQL"
+        [[params.skills.list.items]]
+        details = "Object-oriented design"
+        [[params.skills.list.items]]
+        details = "Design and implement database structures"
+        [[params.skills.list.items]]
+        details = "Monitoring software systems"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Problem solver"
+        [[params.skills.list.items]]
+        details = "Time management"
+
+    [params.education]
+        enable = false
+
+        [[params.education.list]]
+        degree = "Less than high school diploma"
+        university = "N/A"
+        dates = "2010"
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Japanese"
+        level = "Native"
+        [[params.languages.list]]
+        name = "English"
+        level = "Professional"
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Teaming"
+
+    [params.summary]
+        enable = false
+        text = "Software Developer with experience JS, Ruby, agile, DevOps, and TDD. (Summarise your career here)"
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Web Backend Developer"
+        dates = "2020 - Present"
+        company = "SES"
+        details = "..."
+
+        [[params.experience.list]]
+        title = "Web Frontend Developer"
+        dates = "2018 - 2020"
+        company = "SES"
+        details = "Developed and ran a new JavaScript application that runs on a WebView. Coordinated with Rails View and another service, BFF, to deliver that application. Replaced bundle tools, introduced type checking, monitored for errors, automated releases, and introduced CSP reporting. Regularly read release notes to notice disruptive changes in the browser."
+        [[params.experience.list.items]]
+        details = "Documentation"
+        [[params.experience.list.items]]
+        details = "Agile Mindset, Microservices"
+
+        [[params.experience.list]]
+        title = "Web Backend Developer"
+        dates = "2016 - 2017"
+        company = "SES"
+        details = "Improved video uploading performance. Developed API and manage tools."
+
+        [[params.experience.list]]
+        title = "Web Frontend/Backend Developer"
+        dates = "2016"
+        company = "SES"
+        details = "Developed a product management system. Replaced the prototyped front end, and cleaned up the dependencies. Separating it into the Rails Engine beforehand made it easier to remove the replaced prototype later."
+
+        [[params.experience.list]]
+        title = "Web Backend Developer"
+        dates = "2015"
+        company = "Current Company LTD"
+        details = "Launched a website to search for equipment. Designed DB, built CI. We selected a library with a simple internal structure, and with less contributor bias."
+
+        [[params.experience.list]]
+        title = "Web Frontend/Backend Developer"
+        dates = "2015"
+        company = "Current Company LTD"
+        details = "Launched and operated JS/Rails service."
+
+        [[params.experience.list]]
+        title = "System Design"
+        dates = "2015 - 2020"
+        company = "Current Company LTD"
+        details = "Provided leadership as service designer on in-house issues."
+
+    [params.projects]
+        enable = false
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects."
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Certifications"
+        [[params.information.list.items]]
+        details = "2019 - AWS Solutions Architect Associate"
+        [[params.information.list.items]]
+        details = "2016 - Ruby Association Certified Ruby Programmer Gold"
+
+    [params.social]
+        enable = false
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/username"
+        title = "username"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/username"
+        title = "@username"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/username"
+        title = "username"
