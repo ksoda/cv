@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "ksoda.github.io"
+baseURL = "https://ksoda.github.io"
 languageCode = "en"
 title = ""
 theme = "hugo-devresume-theme"
