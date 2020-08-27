@@ -110,7 +110,7 @@ googleAnalytics = "UA-127857678-1"
         title = "Web Frontend Developer"
         dates = "2018 - 2020"
         company = "SES"
-        details = "Developed and ran a new JavaScript application that runs on a WebView. Coordinated with Rails View and another service, BFF, to deliver that application. Replaced bundle tools, introduced type checking, monitored for errors, automated releases, and introduced CSP reporting. Regularly read release notes to notice disruptive changes in the browser."
+        details = "Developed and ran new JavaScript application that runs on WebView. Coordinated with Rails View and BFF to deliver that application. Replaced bundle tools, introduced type checking, monitored for errors, automated releases, and introduced CSP reporting. Regularly read release notes to notice disruptive changes in browsers."
         [[params.experience.list.items]]
         details = "Documentation"
         [[params.experience.list.items]]
@@ -126,13 +126,13 @@ googleAnalytics = "UA-127857678-1"
         title = "Web Frontend/Backend Developer"
         dates = "2016"
         company = "SES"
-        details = "Developed a product management system. Replaced the prototyped front end, and cleaned up the dependencies. Separating it into the Rails Engine beforehand made it easier to remove the replaced prototype later."
+        details = "Developed product management system. Replaced prototyped front end, and cleaned up the dependencies. Separating it into the Rails Engine beforehand made it easier to remove the replaced prototype later."
 
         [[params.experience.list]]
         title = "Web Backend Developer"
         dates = "2015"
         company = "Current Company LTD"
-        details = "Launched a website to search for equipment. Designed DB, built CI. We selected a library with a simple internal structure, and with less contributor bias."
+        details = "Launched website to search for facilities. Designed DB, built CI. Selected library with simple internal structure, and with less contributor bias."
 
         [[params.experience.list]]
         title = "Web Frontend/Backend Developer"
